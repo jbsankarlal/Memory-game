@@ -1,0 +1,57 @@
+body{
+  justify-content: center;
+  align-items: center;
+}
+/* Styles for container */
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Styles for images */
+.image-container {
+  margin: 10px;
+  text-align: center;
+  cursor: pointer;
+}
+
+img {
+  width: 150px;
+  height: 150px;
+  margin-bottom: 5px;
+}
+
+p {
+  margin-bottom: 5px;
+}
+
+/* Styles for tick and cross marks */
+span {
+  font-size: 24px;
+  margin-top: 5px;
+  color: #007bff;
+}
+
+/* Styles for heading */
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #007bff;
+}
+
+/* Styles for result message */
+p {
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #007bff;
+  text-align: center;
+}
+
+
+.board{
+  justify-content: center;
+  align-items: center;
+}
