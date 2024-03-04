@@ -23,7 +23,7 @@ const Game = () => {
 
   useEffect(() => {
     const shuffledImages = [...initialImages, ...additionalImages].sort(() => Math.random() - 0.5); // Shuffle combined images
-    setImages(shuffledImages); // Set initial shuffled images
+    setImages(shuffledImages); // Set initial shuffled images - imp check why once
     startCountdown();
   }, []);
 
@@ -35,7 +35,7 @@ const Game = () => {
     setTimeout(() => {
       clearInterval(countdownTimer);
       setCountdown(0);
-    }, 6000);
+    }, 5000);
   };
 
   const handleClick = (selectedImage) => {
