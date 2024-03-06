@@ -35,7 +35,7 @@ const Game = () => {
     setTimeout(() => {
       clearInterval(countdownTimer);
       setCountdown(0);
-    }, 5000);
+    }, 7000);
   };
 
   const handleClick = (selectedImage) => {
